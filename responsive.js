@@ -1027,8 +1027,12 @@ $('#item_deal_items').addClass('row');
         if ($('table.deal_items img').length > 0) {
         	var deal_item_src;
         	$('table.deal_items img').each(function() {
-        		deal_item_src = $(this).attr('src');
-        		$(this).attr('src', deal_item_src.replace('index', 'large'));
+                try {
+                    deal_item_src = $(this).attr("src");
+                    $(this).attr("src", deal_item_src.replace("index", "large"));   
+                } catch (error) {
+                    console.log('row 1038 - responsive js (bundle) - deal_item_src.replace("index", "large") ' + error);
+                }
         	});
         }
 
