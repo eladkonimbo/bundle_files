@@ -1,10 +1,10 @@
 # bundle_files
 ## first time:
 
-Title | Url
------------- | -------------
-uglifyjs (for minified) | https://www.npmjs.com/package/uglify-js
-gzip (for gzip) | https://www.npmjs.com/package/gzip-cli#gzip-cli
+Title | Purpose | Url
+------------ | ------------- | -------------
+uglifyjs | minified | https://www.npmjs.com/package/uglify-js
+gzip | gzip | https://www.npmjs.com/package/gzip-cli#gzip-cli
 
 ## update steps:
 - step1
